@@ -86,3 +86,12 @@ Thumbs.db
 
 # Ignore ASP.NET Core appsettings.json to avoid leaking sensitive data
 secrets.json
+
+
+# Ignore large model files
+*.onnx
+*.pt
+*.pth
+*.h5
+*.keras
+*.pb
